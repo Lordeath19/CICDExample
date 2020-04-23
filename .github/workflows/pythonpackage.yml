@@ -53,4 +53,4 @@ jobs:
         # Artifact name
         name: Package ${{ matrix.os }} ${{ matrix.python-version }}  
         # Directory containing files to upload
-        path: dist
+        path: dist/

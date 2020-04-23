@@ -43,3 +43,7 @@ jobs:
       run: |
         pip install pytest
         pytest
+    - name: Compile with pyinstaller
+      run: |
+        pip install pyinstaller
+        pyinstaller -F main.py
